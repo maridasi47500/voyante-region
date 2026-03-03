@@ -36,7 +36,7 @@ def hello_world():
         cmd1=subprocess.Popen(["ffmpeg","-i", myname, myothername]) 
         cmd1.communicate()
         message=transcribe_audio(myothername, request.form["locale"])
-        return render_template("hi.html", message=message)
+        return render_template("hi.html", message=message, locale=request.form["locale"])
     else:
         return render_template("hey.html")
 if __name__ == '__main__':

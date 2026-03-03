@@ -5,3 +5,6 @@ voyante, ecoute radios tous pays , comprend, ecrit radio, traduit radio, avec li
 -   ssmml voyage toutes caitale trangeres, pronounce 
 - ffmpeg, the conversion of audio files from OGG to WAV
 - python3 app.py
+![pic text](./pic2.png)
+![pic text](./pic1.png)
+
